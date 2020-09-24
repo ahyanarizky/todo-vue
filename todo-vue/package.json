@@ -1,0 +1,13 @@
+{
+  "name": "todo-vue",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.5"
+  }
+}

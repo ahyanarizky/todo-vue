@@ -1,0 +1,14 @@
+[
+  {
+    "name": "fun",
+    "path": "/fun",
+    "component": "/Users/ahyanarizky/Documents/projects/todo-vue/todo-vue/pages/fun.vue",
+    "chunkName": "pages/fun"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ahyanarizky/Documents/projects/todo-vue/todo-vue/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

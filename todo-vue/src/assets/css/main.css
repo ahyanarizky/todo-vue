@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'scada';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Scada/Scada-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'scada_bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Scada/Scada-Bold.ttf') format('truetype');
+}
+
+:root {
+  --radius-size: 0.429em;
+  --sixteen-px: 1.143em;
+  --four-px: 0.286em;
+  --two-px: 0.143em;
+  --blue: #2c9cdb;
+  --yellow: #e5a502;
+  --orange: #f76325;
+  --green: #00976a;
+  --purple: #794ed3;
+  --gray: #95989d;
+
+}
+
+html { font-size: 87.5%} /* 14px */
+body {
+  margin: 0;
+  font-family: 'scada';
+  font-size: 1em;
+  color: #151A2D;
+}
+
+.main_background {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(139deg, rgba(209,255,219) 13%, rgba(193,218,255) 35%, rgba(244,198,250) 93%);
+  padding: 1.714em;
+}
+
+.main_background > .header_panel > span.active{
+  border: var(--two-px) solid #151A2D;
+  border-radius: var(--radius-size);
+  font-size: var(--sixteen-px);
+  padding: var(--four-px) var(--sixteen-px);
+}
+
+.header_panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.286em;
+}
+
+.colorful_pallete {
+  display: flex;
+  justify-content: center;
+  font-size: 2.286em;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.profile_section {
+  background-color: var(--blue);
+  border-top-left-radius: 0.571em;
+}
+
+.education_section {
+  background-color: var(--yellow);
+  margin: 0 0.286em;
+}
+
+.hobby_section {
+  background-color: var(--orange);
+  border-top-right-radius: 0.571em;
+}
+
+.interest_section {
+  background-color: var(--green);
+  border-bottom-left-radius: 0.571em;
+}
+
+.experience_section {
+  background-color: var(--purple);
+  margin: 0 0.286em;
+}
+
+.portofolio_section {
+  background-color: white;
+  color: black;
+  border-bottom-right-radius: 0.571em;
+}
+
+.profile_section, .education_section, .hobby_section, .interest_section, .experience_section, .portofolio_section {
+  padding: 1.143em;
+  min-width: 4.786em;
+  cursor: pointer;
+}
+
+.top_section {
+  margin-bottom: 0.286em;
+}
+
+.top_section, .bottom_section {
+  display: flex;
+}
+
+
